@@ -5,7 +5,7 @@ import styles from "./Home.module.css";
 
 function Detail() {
   const [loading, setLoading] = useState(true);
-  const [movie, setMovie] = useState(null); // 배열 대신 객체로 초기화
+  const [movie, setMovie] = useState(null);
   const { id } = useParams();
 
   const getMovie = async () => {
@@ -18,7 +18,7 @@ function Detail() {
       }
       const json = await response.json();
       console.log(json);
-      setMovie(json.data.movie); // 객체로 설정
+      setMovie(json.data.movie);
       setLoading(false);
     } catch (error) {
       console.error("Error fetching movie details:", error);
