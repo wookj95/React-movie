@@ -18,7 +18,7 @@ function Detail() {
       }
       const json = await response.json();
       console.log(json);
-      setMovie(json.data.movie);
+      setMovie(json.data.movie); // 객체로 설정
       setLoading(false);
     } catch (error) {
       console.error("Error fetching movie details:", error);
