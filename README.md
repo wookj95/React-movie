@@ -5,4 +5,5 @@
 https://nomadcoders.co/react-for-beginners/lobby
 
 映画紹介画面で映画名をクリックすると、映画の詳細を確認できます
+
 영화 소개 화면에서 영화 이름을 클릭하면 영화의 세부 내용을 확인할수있음
